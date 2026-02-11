@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Introduction Page</title>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", serif;
+            background: white;
+        }
+
+        .a4-page {
+            width: 210mm;
+            height: 297mm;
+            border: 2px solid black;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .school-name {
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        .session {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 8px;
+        }
+
+        .photo {
+            text-align: center;
+            margin: 35px 0;
+        }
+
+        .photo img {
+            width: 150px;
+            height: 200px;
+            border: 2px solid black;
+            object-fit: cover;
+        }
+
+        .details {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 2;
+        }
+
+        .details p {
+            margin: 6px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            display: inline-block;
+            width: 160px;
+        }
+
+        .footer {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="a4-page">
+
+    <div class="school-name">
+        CENTRRAL ACADEMY SENIOR SECONDARY SCHOOL
+    </div>
+
+    <div class="session">
+        Project File Submission
+    </div>
+
+    <div class="photo">
+        <img src="Central Academy.avif" alt="Student Photograph">
+    </div>
+
+    <div class="details">
+        <p><span class="label">Name :</span> __________________________</p>
+        <p><span class="label">Class :</span> __________________________</p>
+        <p><span class="label">Roll No. :</span> __________________________</p>
+        <p><span class="label">School :</span> Central Academy Senior Secondary School</p>
+        <br>
+        <p><span class="label">Subject :</span> __________________________</p>
+        <p><span class="label">Submitted To :</span> __________________________</p>
+        <p><span class="label">Submitted By :</span> __________________________</p>
+    </div>
+
+    <div class="footer">
+        <div>Date: ____________</div>
+        <div>Signature: ____________</div>
+    </div>
+
+</div>
+
+</body>
+</html>
