@@ -1,0 +1,31 @@
+img{
+    margin: 400px;
+     
+    border: 20px solid black;
+
+    height: 700px;
+    padding: 20px;
+    padding-left: 900px;
+    padding-right: 850px;
+    
+    
+}
+h2{
+    border: 5px solid red;
+    border-right: px;
+    text-align: center;
+    height: 80px;
+    font-style: italic;
+    font-size:xx-large;
+    border-width: 12px;
+    
+
+
+}
+h1{
+    border-style:dotted;
+    border: 6px solid brown;
+    text-align: center;
+    font-size:xx-large
+    
+}
