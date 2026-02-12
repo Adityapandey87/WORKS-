@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">survey form<h1>
+       <p id="description">
+    Please fill out this survey to help us improve our learning experience.
+  </p>
+
+  
+  <form id="survey-form">
+
+    
+    <label id="name-label" for="name">Name:</label><br>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Enter your name"
+      required
+    ><br><br>
+    <label id="email-label" for="email">Email:</label><br>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    ><br><br>
+
+    
+    <label id="number-label" for="number">Age:</label><br>
+    <input
+      type="number"
+      id="number"
+      name="age"
+      min="10"
+      max="99"
+      placeholder="Enter your age"
+    ><br><br>
+    <label for="dropdown">Which option best describes you?</label><br>
+    <select id="dropdown" name="role">
+      <option value="student">Student</option>
+      <option value="professional">Professional</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Would you recommend us?</p>
+    <label>
+      <input
+        type="radio"
+        name="recommend"
+        value="yes"
+      > Yes
+    </label><br>
+
+    <label>
+      <input
+        type="radio"
+        name="recommend"
+        value="no"
+      > No
+    </label><br><br>
+
+    <!-- Checkboxes -->
+    <p>What do you like? (Select all that apply)</p>
+    <label>
+      <input
+        type="checkbox"
+        name="features"
+        value="projects"
+      > Projects
+    </label><br>
+
+    <label>
+      <input
+        type="checkbox"
+        name="features"
+        value="community"
+      > Community
+    </label><br><br>
+
+    <!-- Textarea -->
+    <label for="comments">Any comments?</label><br>
+    <textarea
+      id="comments"
+      name="comments"
+      rows="4"
+      cols="30"
+      placeholder="Enter your comments here..."
+    ></textarea><br><br>
+
+    <!-- Submit Button -->
+    <button
+      type="submit"
+      id="submit"
+    >
+      Submit
+    </button>
+
+  </form>
+  </body>
+</html>
